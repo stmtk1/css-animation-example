@@ -8,11 +8,20 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
-      },
+      transitionDelay: {
+        '6': '0.06s',
+        '12': '0.12s',
+        '18': '0.18s',
+        '30': '0.3s',
+        '36': '0.36s',
+        '42': '0.42s',
+        '48': '0.48s',
+        '54': '0.54s',
+        '60': '0.60s',
+        '66': '0.66s',
+        '72': '0.72s',
+        '78': '0.78s',
+      }
     },
   },
   plugins: [],
