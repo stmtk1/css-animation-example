@@ -1,6 +1,7 @@
 "use client";
 import { useEffect, useState } from "react";
 import clsx from "clsx";
+import Link from "next/link";
 
 function FirstExample() {
   const [isVisible, setIsVisible] = useState(false);
@@ -46,6 +47,7 @@ export default function Home() {
     <main>
       <FirstExample />
       <SecondExample />
+      <div><Link href="/bg_animation">背景が動くやつ</Link></div>
     </main>
   )
 }
