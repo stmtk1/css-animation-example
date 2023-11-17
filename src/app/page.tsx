@@ -47,7 +47,16 @@ export default function Home() {
     <main>
       <FirstExample />
       <SecondExample />
-      <div><Link href="/bg_animation">背景が動くやつ</Link></div>
+      <div><Link className="underline" href="/bg_animation">背景が動くやつ</Link></div>
+      <ThirdExample />
     </main>
+  )
+}
+
+function ThirdExample() {
+  return (
+    <div className="p-[40px]">
+      <i className="border-box w-4 h-4 rounded-[50%] inline-block animate-spin" style={{ boxShadow: "0 -30px 0 #eee,21px -21px 0 #ddd,30px 0 0 #ccc,21px 21px 0 #bbb,0 30px 0 #aaa,-21px 21px 0 #999,-30px 0 0 #666, -21px -21px 0 #000" }} />
+    </div>
   )
 }
